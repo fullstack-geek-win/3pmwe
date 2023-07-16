@@ -1,0 +1,55 @@
+HTML Form
+=========
+Submit -> server -> permanent
+
+HTML Request -> browser
+C#
+Java
+PHP
+Pythan
+-> HTML
+
+Proof
+------
+HTML
+CSS
+Javascript
+
+Forms
+=====
+Application Form
+HTml
+Live server
+http://127.0.0.1:5500/index.html?Empname=Rahul&password=Admin
+http -> hypertext transfer protocol Rs.120
+https -> secured  R3249u29#235sef!2
+127.0.0.1 - localhost - laptop
+:5500 - port - google search
+:5600 - google maps
+:5700 - google drive
+127.0.0.2:5500 
+/index.html - starting page
+
+Querystring
+?Empname=Rahul&password=Admin
+
+http://127.0.0.1:5500/landing.html?Empname=Rjasaksdjfhksadfhashfjkashdfjkshdfjshdfjk+askdfhkjsdhfjksadhfjkhsadkjfhjkasdhfjksdha+asdjfhaksjhfdjkashdfjkhasdkjfhjskad+sjfkhajksdhfjhasjfhas+asdjfhafjkhsdjfhasjdhfjkasdhjfsa+asdjfhaskjdhfjkashdfjkhsajkdfhjksda+asdkjfhaskjdfhjskadhfjkhasdjkfhajshfjksahfjkhsdjfhasjkdh&password=asflksdjfksdlfhkjsadhfkjhsdkhfkjsdahfjhsakjdhfkjsdhjkfhsdakjhfjkshadjfhsadkjhfkjash
+
+Javascript
+Backend
+fluid library
+1 alphabet
+1 spl charset
+1 number
+
+http://127.0.0.1:5500/landing.html?empname=Geetha&mobile=16&email=balaji.k%40intelizign.com&address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&gender=on
+
+http://127.0.0.1:5500/landing.html?empname=Ram&mobile=16&email=balaji.k%40intelizign.com&address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&gender=male&dept1=HR&dept3=Sports
+
+http://127.0.0.1:5500/landing.html?empname=Ram&mobile=16&email=balaji.k%40intelizign.com&address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&gender=male&dept2=PROD&upskill=na
+
+http://127.0.0.1:5500/landing.html?empname=Ram&mobile=16&email=balaji.k%40intelizign.com&address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&gender=female&dept1=HR&dept2=PROD&upskill=java&
+
+upload=image.docx
+
+http://127.0.0.1:5500/landing.html?empname=Ram&mobile=16&email=balaji.k%40intelizign.com&address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&gender=female&dept1=HR&dept2=PROD&upskill=java&upload=Policy_Reply.docx&hidden=AadharKey-1234-1234

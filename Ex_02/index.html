@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .pass {
+        background-color: red;
+      }
+      table, tr, td {
+        border: 2px solid;
+      }
+    </style>
+  </head>
+  <!-- body elements -->
+  <body>
+    <h1>HTML Forms, Controls & Validations</h1>
+    <!-- Comment the lines - Control + / -->
+    <!-- Form creation -->
+    <form action="./landing.html" method="get">
+      <table>
+        <tr>
+          <td>
+            <label for="Empname">Empname: </label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="Empname"
+              name="Empname"
+              maxlength="10"
+              minlength="3"
+              value="Balaji"
+              readonly
+              size="5"
+            />
+          </td>
+          <td rowspan="3">
+            validation
+        </td>
+        </tr>
+        <tr>
+          <td><label for="password">Password: </label></td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              size="5"
+            />
+          </td>
+          <!-- <td>validation</td> -->
+        </tr>
+        <tr>
+          <td><label for="fullname">Fullname: </label></td>
+          <td>
+            <input
+              size="5"
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Enter your Full name.."
+            />
+          </td>
+          <!-- <td>validation</td> -->
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align: center">
+            <button type="submit">Click</button>
+            <button type="reset">Clear</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

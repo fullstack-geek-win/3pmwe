@@ -1,0 +1,56 @@
+Introduction
+============
+
+Input Device
+CPU 
+Output Device
+
+Web search
+
+Basic Web Development
+	HTML - Content/Data
+	CSS - Presentation
+	Bootstrap
+	DOM
+	Javascript
+
+Frontend
+	React.js
+	
+Backend
+	Asp.net MVC C#
+	
+Database
+	SQL-Server
+	
+VCS
+	GIT 10-12 2-3
+
+Tools
+
+
+Mock Project - CRUD 
+Employee Form/Transaction
+Report
+Migration/Automation
+
+Mock Interview / Q&A / FAQ
+SQL-Server
+overriding & Overloading
+1-2 
+
+Assistance
+
+
+POC
+proof of concept
+
+
+
+
+
+
+
+
+
+
