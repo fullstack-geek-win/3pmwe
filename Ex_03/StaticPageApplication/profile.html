@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Naviagation Project</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>My Website</h1>
+    <table class="topAlign">
+      <tr>
+        <!-- Menulist -->
+        <td class="menu">
+            <table>
+                <tr>
+                    <td>
+                        <a href="./index.html">Home</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./profile.html">Profile</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./ablum.html">Album</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./contactme.html">Contact Me</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <!-- Main Content -->
+        <td class="content">
+          <h3>Profile</h3>
+          <form action="./landing.html" method="post">
+            <div>
+                <input type="text" name="empname" placeholder="Enter Emp name" maxlength="11" minlength="3">
+            </div>
+            <div>
+                <input type="tel" name="mobile" id="mobile" placeholder="Enter Mobile number">
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Enter Email address">
+            </div>
+            <div>
+                <textarea name="address" id="address" cols="20" rows="4"></textarea>
+            </div>
+            <div>
+                <label>Gender</label>
+        
+                <input type="radio" id="male" name="gender"  value="male"  checked>
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>Departments: 
+                <input type="checkbox" name="dept1" value="HR" checked>HR
+                <input type="checkbox" name="dept2" value="PROD" checked>Production
+                <input type="checkbox" name="dept3" value="Sports">Sports
+            </div>
+            <div>
+                <label>Upskill yourself: </label>
+                <select name="upskill" id="upskill">
+                    <option value="na">-- Select --</option>
+                    <option value="c" >C</option>
+                    <option value="cplus">C++</option>
+                    <option value="html" selected>HTML</option>
+                    <option value="java">Java</option>
+                </select>
+            </div>
+            <div>
+                <input type="file" name="upload">
+            </div>
+            <div>
+                <input type="hidden" name="hidden" value="AadharKey-1234-1234">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

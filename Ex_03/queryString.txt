@@ -1,0 +1,19 @@
+http://127.0.0.1:5501/landing.html
+?
+empname=Balaji+Kasi &
+mobile=9600074577 &
+email=hari%40gamil.com
+&
+address=13%2C+periyar+nagar
+&
+gender=male
+&
+dept1=HR
+&
+dept2=PROD
+&
+upskill=html
+&
+upload=OOPS_MustRead.txt
+&
+hidden=AadharKey-1234-1234

@@ -1,0 +1,27 @@
+
+15 - 2h & 16 - 3h
+
+HTML
+-----
+1. Introducting Elements/tags
+<html>
+<images>
+
+2. CSS
+basic designs
+connect with HTML
+
+3. HTML Forms, Controls & validation
+	Navigation approach
+	Querystring
+	Live server
+	
+4. 1 static page with simple navigations
+or 2 Naviagation with Project
+
+5. Project 
+	Business needs -> system
+
+
+
+

@@ -1,0 +1,49 @@
+body {
+    background-color:white;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* table, tr, td {
+     border: 1px solid white; 
+} */
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.topAlign td {
+    vertical-align: top;
+    text-align: justify;
+    /* border: 5px solid white; */
+}
+
+.menu {
+    width: 13%;
+    /* background-color: coral; */
+}
+
+.menu td {
+    font-size: 1.5rem;
+    /* font-size: 50px;
+    font-size: 10%; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:gold;
+}
+
+.content {
+    width: 87%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+

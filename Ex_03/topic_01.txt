@@ -1,0 +1,51 @@
+Brush-up session
+-----------------
+OneNote - Reference
+GitHub - VCS
+
+Development
+Visual Studio Code
+
+Console -> batch process/background process (daily/weekly/monthly) email/Report
+	scripts
+Desktop (exe) HMS In
+	Intranet - LAN
+	UI
+	Codebehind/source code .NET C# VB OOPS Java
+Web -> HTML
+	Internet - anywhere/anytime
+	HTTP - web appraoch client/server
+	HTML
+		input - Request -> Frontend -> C# Backend -> DB
+		output - Response <- HTML <- C#
+
+Web Development/design
+======================		
+HTML - Content/Data
+CSS - Presentation
+Scentific - Html 90% - CSS 10%
+Interier - css 70% data 30%
+Javascript - Content & Presentation handle dynamically
+
+Name 
+DOB
+Age DOB - CurrentData Frontend validation
+Aadhar ID backend validation 12 digit
+
+
+Frontend 
+	AngularJs
+	ReactJs
+	Vue.js
+	
+	client -> server
+
+
+
+----------
+API/REST serices
+Mobile Application
+
+---
+CMS
+ERP

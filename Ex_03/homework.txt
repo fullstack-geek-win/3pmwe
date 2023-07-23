@@ -1,0 +1,5 @@
+Order Project
+
+1. Menu -> static page
+2. Order -> select items -> queryString
+3. Payment -> show some fields in the page
