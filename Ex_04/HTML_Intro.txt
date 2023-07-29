@@ -1,0 +1,31 @@
+HTML
+====
+1. Hello World!
+
+HTML Tags
+----------
+1. Open/Close tags  <html> </html>, <h1>Full Stack</h1>
+2. Self Closed tags <br /> <img /> <hr />
+
+HTML Elements
+-------------
+<h1 style="align: center;">Welcome to Full Stack Web Development - 8AM Batch - May 2023</h1>
+
+HTML Attributes
+---------------
+style="text-align:center;"
+property -> text-align
+value -> center
+
+Measurements
+------------
+40% 
+400px
+4rem
+
+Best Practice & Rules
+---------------------
+1. Understanding Folder/File Structure css, js, image
+2. Design Ideas
+3. Code Implementation and Continuous Improvement
+4. Comment Line & Review code periodically

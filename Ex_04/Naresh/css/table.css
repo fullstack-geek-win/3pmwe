@@ -1,0 +1,28 @@
+thead td {
+    background-color:orange;
+    font-weight: bold;
+}
+tr:nth-child(odd) 
+{ background-color: red /* Apply style to odd rows */ } 
+tr:nth-child(even) 
+{ background-color: yellow/* Apply style to even rows */ }
+
+table, tr, td {
+    border: 1px solid black;
+
+  }
+td {
+    padding: 7px;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: gray;
+    float: right;
+  }
+
+  p {
+    text-align: justify;
+  }
