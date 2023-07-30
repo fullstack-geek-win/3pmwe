@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Besant Sign Up | Step 4</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body style="background-image: url(./images/bg.jpeg)" class="center">
+    <div>
+      <h1>Heading 01</h1>
+      <h2>Heading 02</h2>
+      <h2>Heading 02</h2>
+      <h3>Heading 03</h3>
+      <h4>Heading 04</h4>
+      <h5>Heading 05
+        <p>Lorem ipsum dolor sit.</p>
+      </h5>
+      <h6>Heading 06</h6>
+      <p>
+        Loremtois assumenda omnis doloremque, quis ullam expedita,
+        consectetur nostrum dicta minima!
+      </p>
+    </div>
+    <form action="./final.html">
+      <table>
+        <tr>
+          <td>
+            <img src="./images/logo.png" alt="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding-bottom: 1.5%">
+            <h3 class="center">Create a strong password</h3>
+          </td>
+        </tr>
+        <tr>
+          <td class="center">
+            Create a strong password with a mix of letters, numbers and symbols
+          </td>
+        </tr>
+        <tr>
+          <td class="password">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Password "
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="cpassword">
+            <input
+              type="password"
+              name="cpassword"
+              id="cpassword"
+              placeholder="Confirm Password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label id="err"></label>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right">
+            <button type="submit" onclick="return ValidatePassword()">
+              Next
+            </button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <script src="./js/step2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+#grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 20vh 65vh 15vh;
+    grid-template-areas: 
+    "h h h h h"
+    "sb1 m m m sb2"
+    "f f f f f";
+}
+
+.header {
+    grid-area:h;
+}
+
+.sidebar1 {
+    grid-area:sb1;
+}
+
+.main {
+    grid-area: m;
+}
+.sidebar2 {
+    grid-area:sb2;
+}
+
+.footer{
+    grid-area:f;
+}
+
+p {
+    text-align: justify;
+}
