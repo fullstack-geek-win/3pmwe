@@ -1,0 +1,167 @@
+CSS - Selector, Position, Anchor link
+=====================================
+1. External CSS (in separate .css file)
+2. Internal CSS (Head element)
+3. Inline CSS (in HTML element)
+
+syntax
+------
+HTML Element -> h1, p, table
+HTML Element Type -> 
+input[type="password"] {
+}
+class . <generic>
+ID # <specific>
+
+selector {
+   property1: value1;
+   property2: value2;
+}
+
+Class . and ID #
+------------
+.Tendulkar
+	#Sachin
+	#Angali
+	#Arjun
+
+example
+-------
+p {
+	background-color: red;
+	font-family: sans-serif;
+	color: yellow;
+}
+
+Selector
+--------
+* - Universal selector 
+	body {}
+html tags - h1 p img - Element selector
+. - class selector -> apply generic style across elements
+# - ID selector -> identical
+
+
+
+
+Relating multiple elements
+---------------------------
+h1, p {style}
+div>p - child selector
+div a - Descendant (child of child) selector
+
+h1~h4 - Sibling selector (any similer child element)
+h1+h2 - Adjacent Sibling selector (next similer child element)
+.center -> same class works on different element
+table.center
+h1.center
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+h1.center {
+	text-align: center;
+}
+
+Prioritize Style
+----------------
+h1, h2 - h2 -> apply last Style
+	- except specific Rule h1+h2, div>p
+	- !important to override
+	
+Inheritance style
+-----------------
+h1 -> p -> body -> * {}
+
+Style References
+----------------
+body {background-color: burlywood; }
+h1   {color: white;}
+p    {color: rosybrown;}
+pre  {color: blue;background-color:white;}
+hr   {height:3px;border-width:0;color:gray;background-color:gray}
+table, thead, tr, td {border: 1px solid; vertical-align: top;}
+ul{margin-bottom:0;margin-top:0;}
+
+Image
+<link rel="icon" type="image/x-icon" href="./image/favicon.ico" />
+<img style="float: right; border-radius: 50%; width: 50px; height: 50px;" />
+
+Position
+--------
+Box
+Static Positioning
+Absolute Positioning
+Relative Positioning
+Fixed Positioning
+Sticky Position 
+
+Anchor tag style
+----------------
+a
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - active link
+
+web Layer in table
+-------------------
+Header
+Left frame
+content frame
+Ads frame
+Footer frame
+
+web Layer in CSS GRID
+-------------------
+Header
+Left frame
+content frame
+Ads frame
+Footer frame
+
+.grid{
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 10vh 5vh 80vh 5vh;
+    grid-template-areas: 
+    /* h5 */
+    "h h h h h" 
+    "sh sh sh sh sh" 
+    /* middle content 5 + ls 1 + rs 1 */
+    "sb1 sb1 m m sb2"
+    /* f5 */
+    "f f f f f";
+
+}
+
+.header {
+    grid-area:h;
+}
+
+.header1 {
+    grid-area:sh;
+}
+
+.sidebar1 {
+    grid-area:sb1;
+}
+
+.main {
+    grid-area: m;
+}
+.sidebar2 {
+    grid-area:sb2;
+}
+
+.footer{
+    grid-area:f;
+}
+ 
+
+
+
+
+
+

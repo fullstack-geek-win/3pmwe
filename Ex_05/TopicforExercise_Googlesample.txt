@@ -1,0 +1,48 @@
+Exercise
+========
+
+https://accounts.google.com/signup/v2/createaccount?flowName=GlifWebSignIn&flowEntry=SignUp
+
+Firstpage
+Firstname
+Lastname
+2
+
+2nd page
+DOB
+Gender
+2+2=4
+
+3rd page
+@besant.com
+4+1=5
+
+4th page
+password
+confirm password
+5+1=6
+Submit
+
+5th page
+Firstname
+Lastname
+DOB
+Gender
+email
+password
+
+Execution
+=========
+1st page
+http://127.0.0.1:3000/step2.html?
+fname=Balaji
+&lname=Kasi
+
+2nd page
+http://127.0.0.1:3000/step3.html?
+fname=Balaji
+&lname=Kasi
+&date=1977-05-17
+&gender=Male
+
+
