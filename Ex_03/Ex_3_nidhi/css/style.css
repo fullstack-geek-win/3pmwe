@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(194, 216, 194);
+
+}
+h1, h2 {
+    text-align: center;
+    color: rgb(0, 67, 0);
+}
+td{
+    vertical-align: top;
+}
+.bold{
+    text-decoration: underline;
+    font-size: 25px;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.table1 td {
+    width: 13%;
+    text-decoration: none;
+    color:darkolivegreen;
+    font-weight: bold;
+    border: 2px solid green;
+    background-color: rgb(172, 234, 172);
+}
+
+.table2 {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid green;
+    background-color: rgb(172, 234, 172);
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+p{
+    text-align: center;
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+}
