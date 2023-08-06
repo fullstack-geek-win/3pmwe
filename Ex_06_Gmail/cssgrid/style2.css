@@ -1,0 +1,69 @@
+
+/* *{
+    background-color: white;
+    color: black;
+}
+.right{
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+h1.center{
+    text-align: right;
+}
+td.center{
+    text-align: left;
+}
+
+h1,input{
+    background-color: crimson;
+}
+div>h2,div>h3{
+    background-color: darkcyan;
+}
+
+h2~h3{
+    background-color: darkgreen;
+} */
+
+.gridView {
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "h h h h h"
+    "m c c c b"
+    "f f f f f"
+    ;
+    border: 1px solid black;
+    padding: 0px 5px 0px 5px;
+}   
+.header {
+    grid-area: h;
+    text-align: center;
+}
+.menu {
+    background-color: steelblue;
+    grid-area: m;
+}
+.content {
+    text-align: center;
+    grid-area: c;
+}
+.business {
+    padding: 10px 0px 0px 10px;
+    background-color: steelblue;
+    height: 100% ;
+    grid-area: b;
+}
+.footer {
+    grid-area: f;
+    text-align: center;
+    background-color: beige;
+}
+p {
+    text-align: justify;
+}
+
+
