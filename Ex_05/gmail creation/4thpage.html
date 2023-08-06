@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provide password</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <form action="./finalpage.html">
+        <table class="etable">
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <table>
+    <tr>
+        <td style="padding-bottom: 2%;">
+            <h1 class="center">Provide password and confirm password</h1>
+        </td>
+    </tr>
+    <tr>
+       <td class="center">
+        Create a password with symbols and alphabet characters.
+       </td>
+    </tr>
+      <tr>
+        <td class="password"><input type="password" id="password" name="password" placeholder="Enter your password" required></td>
+        </td>
+      </tr>
+      <tr>
+        <td class="confirm password"><input type="confirmpassword" id="confirmpassword" name="confirmpassword" placeholder="Enter your confirmpassword" required</td>
+      </tr>
+      <tr>
+        <td>
+          <label id="err"></label>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">
+          <button type="submit" onclick="return ValidatePassword()">
+            Next
+          </button>
+        </td>
+      </tr> 
+</body>
+</html>

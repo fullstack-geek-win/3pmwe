@@ -1,0 +1,29 @@
+
+*{
+    background-color: brown;
+    color: chartreuse;
+}
+.right{
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+h1.center{
+    text-align: right;
+}
+td.center{
+    text-align: left;
+}
+
+h1,input{
+    background-color: crimson;
+}
+div>h2,div>h3{
+    background-color: darkcyan;
+}
+
+h2~h3{
+    background-color: darkgreen;
+}
+
+
