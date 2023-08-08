@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    color: rgb(39, 144, 175);
+    
+}
+table, td{
+    color: rgb(15, 131, 135);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    background-color: rgb(125, 162, 163);
+    color: rgb(9, 88, 91);
+}
