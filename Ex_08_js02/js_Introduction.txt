@@ -1,0 +1,23 @@
+Javascript
+==========
+1. Programming Language
+2. The only programming language runs on the (client side) browser. were as others runs on Server side.
+3. Any client side validation done here. due to that, its perform fast
+4. Angular, React, Vue.js derived from Javascript libraries (component).
+5. HTML, CSS <- DOM <- Javascript - dynamic programming
+
+variable types
+declaration
+value assignments
+
+var i = 1;
+let number01 = 1;
+const name01 = "Balaji";
+
+Database
+int 1231123
+long 234242342342342
+float 1.3234f
+double 1.23842934824298
+
+

@@ -1,0 +1,15 @@
+Error Handling
+==============
+try {
+	throw;
+	
+	
+	
+}
+
+catch {
+	
+}
+finally {
+	clear the objects, memory space, etc
+}

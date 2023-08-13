@@ -1,0 +1,43 @@
+for (initial value; condition; incremental/decremental value)
+for(let i=1; i++; i*i)
+{
+  console.log(i)
+}
+
+SQRT
+============
+let number1 = prompt("Enter any number");
+number1 = Math.sqrt(number1);
+console.log("SQRT value is ", number1);
+
+
+Prime Number
+============
+let isPrime = true;
+let prime = prompt("Enter any number");
+prime = Number(prime);
+
+for (let i=2; i<= prime; i++) {
+	if (i%i != 0) {
+		isPrime = false;
+	}
+}
+
+if (isPrime)
+	console.log("The number " + prime + " is a Prime Number");
+else
+	console.log("The number " + prime + " is NOT a Prime Number");
+
+
+1
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+

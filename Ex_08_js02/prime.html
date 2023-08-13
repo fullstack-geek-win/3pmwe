@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="sqrtvalue()">Test SQRT</button>
+
+    <div id="div"></div>
+
+    <script>
+        function sqrtvalue() {
+            // for (let i = 1; ) {
+            //     console.log(i);
+            // }
+            // let number1 = prompt("Enter any number");
+            // // number1 = Number(number1);
+            // number1 = Math.sqrt(number1);
+            // console.log("SQRT value is ", number1);
+
+            let isNotPrime = true;
+            for (let prime = 1; prime <= 100; prime++) {
+
+                for (let i = 2; i < prime; i++) {
+                    if (prime % i == 0) {
+                        isNotPrime = false;
+                    }
+                }
+
+                if (isNotPrime)
+                    document.getElementById("div").innerHTML += "The number " + prime + " is a Prime Number <br>";
+                else
+                    document.getElementById("div").innerHTML += "The number " + prime + " is NOT a Prime Number <br>";
+
+                //reset boolean
+                isNotPrime = true;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
