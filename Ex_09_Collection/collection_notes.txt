@@ -1,0 +1,27 @@
+HTML
+CSS
+Javascript
+
+Exercises
+Navigation Page -> Google gmail
+Login Page
+
+let name = String(Prompt("Enter your name :"));
+name = "Balaji"
+name = "asjkfhasjkefhaskj"
+if name.trim() == ""
+
+if (name=="Balaji")
+elseif (name=="Saswati")
+elseif (name=="Naresh")
+
+Collection
+	Reports
+Array 
+	Single Dimentional Array
+	Two Dimentional Array
+For i=0; i<=10;i++ 
+For..in
+For..of
+int i = 10;
+int i[]
